@@ -39,9 +39,23 @@ p {
 }
 
 img {
+	
 	width: 100%;
-}
 
+}
+.carousel-item:hover
+{width: 100%;
+	transform: scale(1.1);
+	
+}
+.fda_title_row{
+	font-size: 14px;
+	font-weight:500;
+	color: white;
+}
+.product_rating{
+font-size: 15px;
+	color: #ffc75b;}
 .showcase {
 	width: 100%;
 	height: 93vh;
