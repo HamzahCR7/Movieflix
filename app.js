@@ -45,7 +45,15 @@ $('#controlR').click(function() {
         marginLeft: "+=400px"
       }, "fast");
  });
-
+// $('.nohover .carousel').carousel({ interval: false, })
+jQuery(window).load(function() {
+ 
+    /*
+        Stop carousel
+    */
+    $('.nohover .carousel').carousel('pause');
+ 
+});
 
 
 // jQuery(document).ready(function ($) {
